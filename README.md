@@ -1,5 +1,5 @@
 # Legacy-Cobalt-Arras-Library
-My scripts that are broken (the advantage providing ones, I excluded quite a bit from here that weren't really that notable but fun for use) with the new webassembly client for https://arras.io due to the new client.
+My scripts that are broken (the advantage providing ones, I excluded quite a bit from here that weren't really that notable but fun for use) with the new webassembly client for https://arras.io.
 
 1. Minimap. Used alt tab to render other teams. Also renders any known player above 1m score in a special arena closer yellow color.
 2. FOV Script. Used a proxy for detecting the packet arrays and modified the packet which contained the FOV value. 
