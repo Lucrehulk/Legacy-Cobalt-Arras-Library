@@ -1,5 +1,5 @@
 # Legacy-Cobalt-Arras-Library
-My scripts that are broken (the advantage providing ones, I excluded quite a bit from here that weren't really that notable but fun for use) with the new client for https://arras.io due to the new client. ~~They probably won't be able to be rewritten due to the now complexity of the Arras client (except for FOV, which does have a working version for the new client but I won't leak due to it being easy to break and also because just no), which has implemented WASM for the protocol, hence uprooting everything before and making it exponetionally harder now, compared to the old base js protocol~~ my dumb ass literally remade these for new client but i wont release them cuz they actually work so dont listen to me that was from months ago im a way better scripter now lol. This is also why I'm fine with releasing these scripts to the public.
+My scripts that are broken (the advantage providing ones, I excluded quite a bit from here that weren't really that notable but fun for use) with the new webassembly client for https://arras.io due to the new client.
 
 1. Minimap. Used alt tab to render other teams. Also renders any known player above 1m score in a special arena closer yellow color.
 2. FOV Script. Used a proxy for detecting the packet arrays and modified the packet which contained the FOV value. 
@@ -14,3 +14,4 @@ A clip of the B1 Swarmlord
 A clip of the FOV script (client doesn't render over a certain amount no matter what, so extra FOV only goes up to around 2 tiles)
 [video - 2022-11-18T182553.580.webm](https://user-images.githubusercontent.com/97923189/202819555-d1f722b5-2159-407b-a50e-73a29dc90a9b.webm)
 
+8/15/2025 - Note that I am re-releasing this repository to the public. I privated this repository for a while after having reversed the Arras.io webassembly client to the point where I had access to the decrypted and decoded protocol packets and methods to send them (even made headless bots which are now public on this account). Advanced cheats like these were effectively remade for the new client, and the code I created for those will likely see publication at some point in the future (due to declining popularity in Arras and my growing disinterest with it).
